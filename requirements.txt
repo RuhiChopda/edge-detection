@@ -1,6 +1,6 @@
-setuptools
-wheel
-Cython
+setuptools==65.5.1
+wheel==0.40.0
+Cython==0.29.36
 
 streamlit==1.29.0
 opencv-python-headless==4.5.5.64
