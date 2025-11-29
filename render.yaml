@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: edge-detection
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "./build.sh"
+    startCommand: "streamlit run app.py --server.port=$PORT --server.address=0.0.0.0"
